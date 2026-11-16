@@ -1,0 +1,40 @@
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Uploaded resumes and private data
+data/resumes/*
+!data/resumes/.gitkeep
+
+# Model files
+*.pt
+*.bin
+*.safetensors
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+# Temporary debugging scripts
+test_curl.py
+test_ollama.py
+test_powershell.py
